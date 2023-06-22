@@ -33,7 +33,7 @@ public class KafkaConfig {
 
         // Adding the Configuration
         config.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG,
-                "127.0.0.1:9092");
+                "kafka.shikishiki.site:9092");
         config.put(ConsumerConfig.GROUP_ID_CONFIG,
                 "group_id");
         config.put(
@@ -60,7 +60,7 @@ public class KafkaConfig {
 
         // Adding the Configuration
         config.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG,
-                "127.0.0.1:9092");
+                "kafka.shikishiki.site:9092");
         config.put(
                 ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG,
                 StringSerializer.class);
